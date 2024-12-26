@@ -10,7 +10,7 @@ int contarVocales(const string& cadena) {
 
     for (char caracter : cadena) {
         // Si el carácter es una vocal, incrementar el contador
-        if (vocales.find(caracter) != string::npos) {
+        if (vocales.find(caracter) == string::npos) {
             contador++;
         }
     }
