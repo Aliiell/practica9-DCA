@@ -26,6 +26,6 @@ int main() {
 
     int totalVocales = contarVocales(cadenaUsuario);
     cout << "El número de vocales en la cadena es: " << totalVocales << endl;
-
+    //Comentario de prueba
     return 0;
 }
